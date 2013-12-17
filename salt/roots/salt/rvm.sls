@@ -55,3 +55,12 @@ ruby-2.0.0-p195:
       - pkg: rvm-deps
       - pkg: mri-deps
       - user: vagrant
+
+ruby-2.0.0-p353:
+  rvm.installed:
+    - default: False
+    - user: vagrant
+    - require:
+      - pkg: rvm-deps
+      - pkg: mri-deps
+      - user: vagrant
