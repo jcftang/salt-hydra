@@ -7,5 +7,5 @@
 /etc/apt/apt.conf.d/02proxy:
   file.managed:
     - name: /etc/apt/apt.conf.d/02proxy
-    - source: salt://proxy/apt/apt.conf.d/02proxy
+    - source: salt://proxy/etc/apt/apt.conf.d/02proxy
     - template: jinja
