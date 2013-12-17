@@ -1,0 +1,1 @@
+Acquire::http::Proxy "http://{{ salt['pillar.get']('proxy:server', 'proxy.tchpc.tcd.ie')}}:{{ salt['pillar.get']('proxy:port', '8080')}}";
